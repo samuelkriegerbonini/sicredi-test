@@ -97,7 +97,7 @@ http://localhost:8080/swagger-ui.html
 ## ⚠️ Observações
 
 - A criação de tabelas e extensões é feita automaticamente ao subir a aplicação.
-- A validação do CPF está mockada com WireMock.
+- A validação do CPF está mockada via API CPF Mock.
 - Não há verificação de voto duplicado neste MVP.
 - Não há testes unitarios até o momento.
 
