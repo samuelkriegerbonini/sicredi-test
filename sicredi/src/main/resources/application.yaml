@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: sicredi-api
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/sicredi
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update # ou create-drop, validate, create (para dev, use update)
+    show-sql: true
+logging:
+  level:
+    root: INFO
+    org.springframework.r2dbc: DEBUG
